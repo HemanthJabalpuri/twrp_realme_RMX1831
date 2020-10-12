@@ -145,7 +145,7 @@ ENABLE_SCHEDBOOST := true
 
 #OS
 
-PLATFORM_SECURITY_PATCH := 2020-05-05
+
 BOARD_OS_VERSION := 9.0.0
 TW_INCLUDE_CRYPTO := true
 #TW_INCLUDE_FBE := true
@@ -158,3 +158,31 @@ TW_INCLUDE_CRYPTO := true
 
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
+
+#SHRP Device Specific Properties
+
+# Path of your SHRP Tree
+SHRP_PATH := device/oppo/RMX1831
+
+# Maintainer name *
+SHRP_MAINTAINER := ImDeepak0001
+
+# Device codename *
+SHRP_DEVICE_CODE := RMX1831
+
+# Recovery Type (It can be treble,normal,SAR) [Only for About Section] *
+SHRP_REC_TYPE := Treble
+
+# Recovery Type (It can be A/B or A_only) [Only for About Section] *
+SHRP_DEVICE_TYPE := A/B
+
+SHRP_OFFICIAL := true 
+SHRP_EXPRESS := true
+SHRP_DARK := true
+SHRP_EDL_MODE := 0
+SHRP_EXTERNAL := /external_sd
+SHRP_INTERNAL := /sdcard
+SHRP_OTG := /usb_otg
+SHRP_FLASH := 1
+
+SHRP_REC := /dev/block/platform/bootdevice/by-name/recovery
