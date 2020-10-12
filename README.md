@@ -1,4 +1,4 @@
- TWRP Device Tree for Realme U1
+ SHRP Device Tree for Realme U1
 ===========================================
 
 The Realme U1 (codenames _"RMX1831"_ and _"RMX1833"_) is a mid-range smartphone from Realme, announced in November 2018.	
@@ -31,29 +31,27 @@ Features| Fingerprint (rear-mounted), accelerometer, proximity, compass
 ## Getting Started ##
 ---------------
 
-To get started with OMNI sources to build TWRP, you'll need to get
+To get started with OMNI sources to build SHRP, you'll need to get
 familiar with [Git and Repo](https://source.android.com/source/using-repo.html).
 
 # repo init
 
-To initialize your local repository using the OMNIROM trees to build TWRP, use a command like this:
+To initialize your local repository using the OMNIROM trees to build SHRP, use a command like this:
 
-    repo init -u git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b twrp-9.0
+    repo init -u git://github.com/SKYHAWK-Recovery-Project/platform_manifest_twrp_omni.git -b android-9.0
 
-To initialize a shallow clone, which will save even more space, use a command like this:
-
-    repo init --depth=1 -u git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b twrp-9.0
 
 # repo sync
 
 If you are a first time builder then do check Imp_for_first_time_builders.md file.
  Then to sync up:
 
-    repo sync -j(nproc) -c
+    repo sync
 
 ## To Build or Compilation ##
 ---------------
 
-Build the TWRP recovery using below command.
+Build the SHRP recovery using below command.
 
-    cd <source-dir>; export ALLOW_MISSING_DEPENDENCIES=true; . build/envsetup.sh; lunch omni_RMX1831-eng; mka recoveryimage
+    export ALLOW_MISSING_DEPENDENCIES=true; source build/envsetup.sh; lunch omni_<device>-eng; mka recoveryimage
+
