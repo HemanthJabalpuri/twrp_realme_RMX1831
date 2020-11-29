@@ -165,7 +165,7 @@ TARGET_USES_LOGD := true
 SHRP_PATH := device/oppo/RMX1831
 
 # Maintainer name *
-SHRP_MAINTAINER := Deepak Sabharwal
+SHRP_MAINTAINER := DeepakSabharwal
 
 # Device codename *
 SHRP_DEVICE_CODE := RMX1831
