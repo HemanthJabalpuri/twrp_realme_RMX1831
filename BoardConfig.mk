@@ -177,7 +177,7 @@ SHRP_REC_TYPE := Treble
 # Recovery Type (It can be A/B or A_only) [Only for About Section] *
 SHRP_DEVICE_TYPE := A/B
 
-SHRP_OFFICIAL := true 
+SHRP_OFFICIAL := true
 SHRP_EXPRESS := true
 SHRP_DARK := true
 SHRP_EDL_MODE := 0
