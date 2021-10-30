@@ -16,4 +16,4 @@
 # limitations under the License.
 #
 
-PRODUCT_MAKEFILES := $(LOCAL_DIR)/omni_RMX1831.mk
+PRODUCT_MAKEFILES := $(LOCAL_DIR)/twrp_RMX1831.mk

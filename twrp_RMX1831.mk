@@ -20,22 +20,11 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/embedded.mk)
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Device identifier.
 PRODUCT_BRAND := Realme
 PRODUCT_DEVICE := RMX1831
 PRODUCT_MANUFACTURER := Realme
 PRODUCT_MODEL := RMX1831
-PRODUCT_NAME := omni_RMX1831
-
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=RMX1831 \
-    BUILD_PRODUCT=RMX1831 \
-    TARGET_DEVICE=RMX1831
-
-# Display Note: Place these flags here only. Getting error (TW_THEME_WARNING_MSG) if placed in BoardConfig.mk
-
-TARGET_SCREEN_HEIGHT := 2340
-TARGET_SCREEN_WIDTH := 1080
-TW_THEME := portrait_hdpi
+PRODUCT_NAME := twrp_RMX1831
