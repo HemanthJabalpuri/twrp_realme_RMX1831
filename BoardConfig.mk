@@ -103,7 +103,6 @@ TARGET_COPY_OUT_VENDOR := vendor
 # TWRP Related
 TW_THEME := portrait_hdpi
 TW_INPUT_BLACKLIST := "hbtp_vm"
-TW_DEVICE_VERSION := $(shell date -u +" %F")
 TW_MAX_BRIGHTNESS := 2047
 TW_DEFAULT_BRIGHTNESS := 560
 TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
@@ -112,6 +111,8 @@ TW_NO_SCREEN_BLANK := true
 TW_NO_BATT_PERCENT := false
 TW_EXTRA_LANGUAGES := true
 TW_OZIP_DECRYPT_KEY := acaa1e12a71431ce4a1b21bba1c1c6a2
+TW_Y_OFFSET := 50
+TW_H_OFFSET := -50
 
 # My Testing Flags:
 TARGET_USES_MKE2FS := true
