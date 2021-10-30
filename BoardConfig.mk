@@ -111,7 +111,7 @@ TW_CUSTOM_CPU_TEMP_PATH := /sys/devices/virtual/thermal/thermal_zone1/temp
 TW_NO_SCREEN_BLANK := true
 TW_NO_BATT_PERCENT := false
 TW_EXTRA_LANGUAGES := true
-TW_OZIP_DECRYPT_KEY := "acaa1e12a71431ce4a1b21bba1c1c6a2"
+TW_OZIP_DECRYPT_KEY := acaa1e12a71431ce4a1b21bba1c1c6a2
 
 # My Testing Flags:
 TARGET_USES_MKE2FS := true
